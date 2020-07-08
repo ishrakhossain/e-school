@@ -1,6 +1,6 @@
 .button{
     background-color: rgb(47, 255, 109);
-    width: 100px;
+    width: 200px;
     padding: 10px 10px;
     border-radius: 30px;
     border: honeydew;
@@ -83,8 +83,13 @@
     padding-top: 50px;
     padding-left: 20px;
 }
-.upper{
+header{
     background-color: #F0FFF0;
-    width: 1600px;
+}
+.middle{
+    padding-bottom: 50px;
+}
+.foot{
+    padding-top: 70px;
 }
 
