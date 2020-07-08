@@ -1,0 +1,90 @@
+.button{
+    background-color: rgb(47, 255, 109);
+    width: 100px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: honeydew;
+}
+.size{
+    font-size: 20px;
+}
+.green{
+    color: greenyellow;
+}
+.banner{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 200px;
+}
+.container{
+    margin-bottom: 100px;
+    width: 1600px;
+    
+}
+.container-boxes img{
+    width: 100px;
+
+}
+.card{
+    border: none;
+    background-color: #F0FFF0;
+    
+}
+.shadow{
+    box-shadow: 5px 5px 15px #F0FFF0;
+}
+.Online img{
+    width: 340px;
+}
+.online{
+    background-color: white;
+    box-shadow: 5px 5px 20px gray ;
+}
+.Online{
+    margin-top: 200px;
+
+}
+.card-deck{
+    margin-top: 100px;
+}
+.choto img{
+    width: 20px;
+}
+.test{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+#man img{
+    padding-right: 30px;
+    width: 200px;
+}
+#para{
+    padding-left: 20px;
+    font-size: 20px;
+    
+}
+#faka{
+    padding right: 20px;
+}
+.container-down{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;;
+    position: absolute;
+    width: 1440px;
+    height: 369px;
+    left: 0px;
+    top: 2013px;
+    margin-top: 300px;
+    
+    background: #282531;
+}
+#single{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.upper{
+    background-color: #F0FFF0;
+    width: 1600px;
+}
+
