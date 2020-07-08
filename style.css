@@ -1,6 +1,6 @@
 .button{
     background-color: rgb(47, 255, 109);
-    width: 200px;
+    width: 150px;
     padding: 10px 10px;
     border-radius: 30px;
     border: honeydew;
@@ -91,5 +91,8 @@ header{
 }
 .foot{
     padding-top: 70px;
+}
+.men{
+    background-color: #F0FFF0;
 }
 

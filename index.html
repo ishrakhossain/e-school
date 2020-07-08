@@ -7,41 +7,42 @@
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
             <link rel="stylesheet" href="style.css">
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"> 
+            <link rel="shortcut icon" href="master/ICON/Logo.png" type="image/x-icon">
 
     </head>
     <body>
       <header>
         <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="row">
-                <div class="col-md-5">
-            <a class="navbar-brand" href="#">
-                <img src="master/ICON/Logo.png" class="img-fluid w-50" alt="Responsive image">
-            </a>
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"> <img src="master/ICON/Logo.png" class="img-fluid w-25" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                  </a>
+                  <div class="dropdown-menu men" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#cor">Online Courses</a>
+                    <a class="dropdown-item" href="#stat">Statistics</a>
+                    
+                  </div>
+                </li>
+              </ul>
             </div>
-            <div class="col-md-7 size ">
-                <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Books</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Courses</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Others</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <button class="button">Sign In</button>
-                        </a>
-                      </li>
-                  </ul>
-            </div>  
-            </div>
-        </nav>
+          </nav>
+
             </div>
             
       
@@ -66,7 +67,7 @@
             </div>
         </div>
       </header>
-        <div class="container-boxes container">
+        <div class="container-boxes container" id="stat">
             <div class=" row">
                 <div class="col-md-3 ">
                   <div class="card h-100">
@@ -105,7 +106,7 @@
                 </div>
               </div>
         </div>
-        <div class="container Online">
+        <div class="container Online" id="cor">
             <h1 class="d-flex justify-content-center">Online Courses</h1>
             <div class="card-deck">
                 <div class="card online">
