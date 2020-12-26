@@ -1,5 +1,5 @@
 .button{
-    background-color: rgb(47, 255, 109);
+    background-color: lightsalmon;
     width: 150px;
     padding: 10px 10px;
     border-radius: 30px;
@@ -8,9 +8,7 @@
 .size{
     font-size: 20px;
 }
-.green{
-    color: greenyellow;
-}
+
 .banner{
     padding-left: 20px;
     padding-right: 20px;
@@ -65,13 +63,14 @@
     
 }
 #faka{
-    padding right: 20px;
+    padding-right: 20px;
+    width: 1000px;
 }
 .container-down{
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;;
     position: absolute;
-    width: 1440px;
+    width: 1890px;
     height: 369px;
     left: 0px;
     top: 2013px;
@@ -83,18 +82,32 @@
     padding-top: 50px;
     padding-left: 20px;
 }
-header{
-    background-color: #F0FFF0;
-}
+
 .middle{
     padding-bottom: 50px;
 }
 .foot{
     padding-top: 70px;
 }
-.men{
-    background-color: #F0FFF0;
+
+
+.gap{
+    padding-right: 1200px;
 }
-.nav{
-    width: 100px;
+.back{
+    background-image: url('master/Photos/background.png');
+    height: 800px;
+}
+.footer{
+    background-image: url('master/Photos/footerback.png');
+    color: white;
+    width: 10000vh;
+    
+}
+.modal-button{
+    background-color: rgb(175, 218, 238);
+    padding: 10px;
+    border-radius: 5px solid gray;
+    
+    margin-left: 90px;
 }
